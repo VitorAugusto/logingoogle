@@ -32,7 +32,6 @@ if(isset($_GET["code"]))
   //CRIO UM USUÁRIO ORM
   class User extends TORM\Model {};
 
-
   //SETO OS ATRIBUTOS
   User::validates("id", array("numericality"=>true));
   User::validates("name", array("presence"=>true));
@@ -40,6 +39,7 @@ if(isset($_GET["code"]))
   User::validates("fotoperfil", array("presence"=>true));
 
   $user = new User(); //INVOCO O USUÁRIO
+  
   $user->id = rand();
 
  
