@@ -4,6 +4,6 @@ Demonstrando o uso da API OAuth do Google para fazer Login - e o uso de ORM para
 
 ### Necessário versão PHP > 7.2
 
-<img src=images/img1.PNG width=100%>
----
-<img src=images/img2.PNG width=100%>
+<img src=images/img1.PNG width=80%>
+<br>
+<img src=images/img2.PNG width=80%>
