@@ -1,2 +1,3 @@
-# logingoogle
- 
+# Demo Login Google
+Repositório da atividade realizada para a matéria de Sistemas Distribuídos.
+Demonstrando o uso da API OAuth do Google para fazer Login - e o uso de ORM para salvar e recuperar os dados do usuário.
