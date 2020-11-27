@@ -50,7 +50,7 @@ include ('configurarbanco.php');
         <h1 class="mt-5">Usuários cadastrados :</h1>
         <?php
           class User extends TORM\Model {};
-          $users = User::all();
+          $users = User::all(); //Get todos os usuários
 
           foreach ($users as $user) {
             echo "ID:". $user->id;
